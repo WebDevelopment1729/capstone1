@@ -1,0 +1,119 @@
+h1{
+    font-family: Sacramento, cursive;
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+body{
+    
+   
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        font-family: "Merriweather", serif;
+        animation: animateBackground 20s linear infinite;
+    
+}
+.container {
+    /* background-color: #000000; */
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.pro
+{
+    text-decoration: underline;
+}
+.mid-container {
+    margin: 100px 0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+p
+{
+
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        font-size:large;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn
+{
+    background-color: white;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.con{
+   padding-bottom: 10px;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+hr {
+    border: dotted #332941 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+@keyframes animateBackground {
+    0% {
+      background-color: #D4E2D4; /* Start color */
+    }
+    50% {
+      background-color: #FFC7EA; /* Middle color */
+    }
+    100% {
+      background-color: #DAC0A3; /* End color */
+    }
+  }
+.bottom-container {
+    background-color: #000000;
+    padding: 50px 0 20px;
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
